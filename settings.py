@@ -44,3 +44,5 @@ INSTALLED_APPS = list(INSTALLED_APPS) + [
 #    # may use.
 #    ('media/js/**.js', 'javascript'),
 # ]
+
+KNOWN_LANGUAGES = ['en_US']
