@@ -1,9 +1,9 @@
 import os
 
 from setuptools import setup, find_packages
+from project_module import PROJECT_MODULE
 
-
-setup(name='project',
+setup(name=PROJECT_MODULE,
       version='1.0',
       description='Django application.',
       long_description='',

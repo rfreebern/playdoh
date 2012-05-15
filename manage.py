@@ -2,8 +2,10 @@
 import os
 import sys
 
+from project_module import PROJECT_MODULE
+
 # Edit this if necessary or override the variable in your environment.
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'project.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', '%s.settings' % PROJECT_MODULE)
 
 try:
     # For local development in a virtualenv:
